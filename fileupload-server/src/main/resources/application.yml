@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: fileupload-server
+  profiles:
+    active: github
+logging:
+  file: D:/tmp
